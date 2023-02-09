@@ -1,0 +1,17 @@
+.flex-page{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5px;
+}
+
+.lorem {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.grid-page {
+   display: grid; 
+   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+}
