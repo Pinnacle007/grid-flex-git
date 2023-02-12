@@ -26,3 +26,11 @@
     padding: 0  auto;
 }
 
+.heading .message{
+    font-weight: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    font: 2px solid #333;
+}
+
+
