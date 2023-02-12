@@ -1,21 +1,28 @@
-.flex-page{
+/* .pag{
     display: flex;
-    /* justify-content: space-between; */
-    gap: 5px;
+    justify-content: space-around;
+} */
+
+.main-navbar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
-.lorem {
-    border: 1px dotted salmon;
-    padding: 10px;
+.main-navbar a {
+    text-decoration: none;
+    color: #fff;
 }
 
-.grid-page {
-   display: grid; 
-   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-   grid-template-columns: repeat(3, 1fr);
-   gap: 10px;
+.main-navbar {
+    background: #047aed;
+    color: #fff;
 }
-body{
-    background: #000;
-    color: #f0f0f0;
+
+.container{
+    max-width: 600px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0  auto;
 }
+
